@@ -1,0 +1,53 @@
+.wordle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.tile {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #878a8c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.fill {
+  border-color: #565758;
+}
+
+.correctSpot {
+  background-color: #538d4e;
+  border-color: transparent;
+}
+
+.wrongSpot {
+  background-color: #c9b458;
+  border-color: transparent;
+}
+
+.anySpot {
+  background-color: #787c7e;
+  border-color: transparent;
+}
+
+.row {
+  display: flex;
+  gap: 5px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.errorMessage {
+  height: 30px;
+  margin: 10px;
+  color: red;
+}
